@@ -1,5 +1,5 @@
 {% set name = "xmodem" %}
-{% set version = "0.4.7" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/xmodem-{{ version }}.tar.gz
-  sha256: 2f1068aa8676f0d1d112498b5786c4f8ea4f89d8f25d07d3a0f293cd21db1c35
+  sha256: a1a818f31c29412f1cab0cd69deccd7be77bc1feb516723af990d00161f6fb6a
 
 build:
   noarch: python
